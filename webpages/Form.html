@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Form</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <form id="purchaseForm" action="#" method="POST">
+        <h2>Product Purchase Form</h2>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="product">Product</label>
+        <select id="product" name="product" required>
+            <option value="">Select Product</option>
+            <option value="Men's Classic Oxford Shirt">Men's Classic Oxford Shirt</option>
+            <option value="Women's Floral Print Blouse">Women's Floral Print Blouse</option>
+            <option value="Men's tracksuit">Men's Tracksuit</option>
+            <option value="Tennis Racket">Tennis Racket</option>
+            <option value="Cricket Bat">Cricket Bat</option>
+            <option value="Roller Skates">Roller Skates</option>
+            <option value="Messenger Bag">Messenger Bag</option>
+            <option value="Men's Flannel Shirt">Men's Flannel Shirt</option>
+            <option value="Men's Wristwatch">Men's Wristwatch</option>
+            
+        </select>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+
+        <label for="message">Additional Message (optional)</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <input type="submit" value="Place Order">
+    </form>
+    <script src="/js/script2.js"></script>
+</body>
+</html>

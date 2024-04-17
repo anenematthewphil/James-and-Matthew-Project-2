@@ -1,0 +1,100 @@
+body {
+    background-color: beige;
+}
+nav {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-color: gold;
+}
+.header-banner {
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+main {
+
+    padding: 3px;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display:inline;
+    margin: 0 auto;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; /* Adjust as needed */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 30px; /* Adjust as needed */
+}
+
+p {
+    font-size: 20px;
+}
+#copyright {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+}
+.sec1 {
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec2 {
+    display: inline-block;
+    margin: 10px;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    padding: 30px 50px;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: x-large;
+    
+}
+.big-text {
+    font-size: 30px; /* Set the font size to 24 pixels */
+    line-height: 1.5; /* Set the line height to improve readability */
+    text-align: left; /* Center align the text */
+    padding: auto;
+}
+
+#accordion h3 {
+    background-color: gold;
+    font-size: x-large;
+}

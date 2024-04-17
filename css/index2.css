@@ -1,0 +1,176 @@
+body {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+#navbar {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gold;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center; /* Add this line */
+}
+
+#navbar li {
+    margin-right: 20px;
+}
+
+header {
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin:  10px;
+}
+
+main {
+    overflow: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 3px;
+    margin-right: 0;
+}
+img {
+    display: inline;
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+li {
+    margin-top: 40px;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    margin-top: 10px;
+}
+h2 {
+    margin-top: 20px;
+}
+p {
+    font-size: 20px;
+}
+#copyright {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+}
+.upper {
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+}
+.lower {
+    display: inline-block;
+    margin: 10px;
+    width: 45%;
+}
+
+
+#cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax value as needed */
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.lower {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+main {
+    overflow: hidden; /* Hide overflow to prevent extra images from appearing */
+    margin-bottom: 50px; /* Add margin to create space for the button */
+    position: relative; /* Positioning for scroll button */
+    flex: 1; /* Make the main content container grow to fill the remaining space */
+    margin-top: 10px; /* Add margin to separate main content from navbar */
+    padding-bottom: 50px;
+}
+
+#cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.lower {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* CSS for scroll button */
+#scrollButton {
+    position: relative;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formButton {
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Add some top margin to separate it from the scroll button */
+}
+
+#formButton:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer nav ul {
+    display: inline;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add some spacing between the links */
+}
+
+footer nav {
+    text-align: center;
+}
+
+.bold_text {
+    font-weight: bold;
+}
